@@ -12,9 +12,9 @@ from PySide6.QtWidgets import QApplication, QMainWindow, QDialog, QMessageBox
 from PySide6.QtCore import QThread, Signal
 
 # 导入UI类
-from ui初版 import Ui_mainWindow
-from 选择目标网址 import Ui_dialog as Ui_SelectUrlDialog
-from 数据爬取进度 import Ui_Dialog as Ui_ProgressDialog
+from mainwindow import Ui_mainWindow
+from selecturl import Ui_dialog as Ui_SelectUrlDialog
+from progress import Ui_Dialog as Ui_ProgressDialog
 
 
 # ==================== 1. 选择网址的Dialog ====================
